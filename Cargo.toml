@@ -1,5 +1,6 @@
 [package]
 name = "android-cpufeatures-sys"
+# links = "cpufeatures"
 version = "1.0.0" # Remember to update html_root_url in src/lib.rs
 authors = ["Yoan Lecoq <yoanlecoq.io@gmail.com>"]
 build = "build.rs"
