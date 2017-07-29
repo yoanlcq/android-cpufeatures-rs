@@ -1,0 +1,13 @@
+[package]
+name = "log-cpufeatures"
+version = "1.0.0"
+authors = ["Yoan Lecoq <yoanlecoq.io@gmail.com>"]
+
+[target.'cfg(target_os="android")'.dependencies]
+android_glue = "0.2.3"
+android-cpufeatures-sys = { path = "../../" }
+
+[package.metadata.android]
+package_name = "com.yoanlcq.log-cpufeatures"
+label = "Log CPU features"
+

@@ -1,0 +1,15 @@
+[package]
+name = "android-cpufeatures-sys"
+version = "1.0.0" # Remember to update html_root_url in src/lib.rs
+authors = ["Yoan Lecoq <yoanlecoq.io@gmail.com>"]
+build = "build.rs"
+description = "Raw bindings to Android NDK's `cpufeatures` library."
+documentation = "https://docs.rs/android-cpufeatures-sys"
+keywords = ["android", "cpu", "cpufeatures"]
+categories = [ "external-ffi-bindings", "hardware-support" ]
+license = "MIT/Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/yoanlcq/android-cpufeature-sys"
+
+[build-dependencies]
+gcc = "0.3"
