@@ -1,7 +1,7 @@
 [package]
 name = "android-cpufeatures-sys"
 # links = "cpufeatures"
-version = "1.0.1" # Remember to update html_root_url in src/lib.rs
+version = "2.0.0" # Remember to update html_root_url in src/lib.rs
 authors = ["Yoan Lecoq <yoanlecoq.io@gmail.com>"]
 build = "build.rs"
 description = "Raw bindings to Android NDK's `cpufeatures` library."

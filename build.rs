@@ -11,7 +11,7 @@ fn main() {
     // let h_path = format!("{}/sources/android/cpufeatures/cpu-features.h", ndk_path);
     let c_path = format!("{}/sources/android/cpufeatures/cpu-features.c", ndk_path);
     */
-    let c_path = "src.c";
+    let c_path = "cpu-features-wrapper.c";
 
     gcc::compile_library("libcpufeatures.a", &[&c_path]);
     println!("cargo:rustc-link-lib=static=cpufeatures");
